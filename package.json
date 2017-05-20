@@ -1,0 +1,24 @@
+{
+  "name": "曙光助手",
+  "productName": "曙光助手",
+  "version": "0.0.1",
+  "description": "Dawn Desktop Client",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/cybersword/bee",
+  "keywords": [
+    "Electron",
+    "map"
+  ],
+  "author": "cybersword",
+  "license": "",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  },
+  "dependencies": {
+    "request": "latest",
+    "async": "latest"
+  }
+}

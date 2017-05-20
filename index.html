@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<div id="task-list">
+
+    <div id="new" style="float:none;">
+        <h3>新任务
+            <button id="btn-refresh">刷新</button>
+        </h3>
+        <ul id="ul-new" style="list-style-type: none; float: left;"></ul>
+    </div>
+
+    <div id="downloading" style="clear:both;">
+        <h3>下载中
+            <button id="btn-pause">暂停</button>
+        </h3>
+        <ul id="ul-dl" style="list-style-type: none; float: left;"></ul>
+    </div>
+
+    <div id="committing" style="clear:both;">
+        <h3>提交中
+            <button id="btn-cancel">取消</button>
+        </h3>
+        <ul id="ul-ci" style="list-style-type: none; float: left;"></ul>
+    </div>
+
+
+</div>
+<!-- All of the Node.js APIs are available in this renderer process. -->
+<!--We are using Node.js
+<script>document.write(process.versions.node)</script>
+,
+Chromium
+<script>document.write(process.versions.chrome)</script>
+,
+and Electron
+<script>document.write(process.versions.electron)</script>
+.
+<div>
+    <button class="demo-button" id="put-in-tray">View Demo</button>
+    <span class="demo-response" id="tray-countdown"></span>
+</div>-->
+
+</body>
+<script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+</script>
+</html>
